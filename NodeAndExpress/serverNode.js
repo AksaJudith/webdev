@@ -24,6 +24,6 @@ const server = http.createServer((req, res) => {
 
 
 const PORT = 3000;
-app.listen(PORT, () => {
+server.listen(PORT, () => {
     console.log(`Server running at http://MACHINE-IP-ADDRESS:${PORT}`);
 });
